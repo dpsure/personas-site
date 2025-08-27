@@ -1,6 +1,4 @@
 // @ts-check
-
-
 /** @type {import('@docusaurus/types').Config} */
 const config = {
   title: 'Personas Hub',
