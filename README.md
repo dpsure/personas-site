@@ -7,25 +7,6 @@ A starter that gives you:
 - Shared Hero and CardGrid components
 - GitHub Pages deployment config
 
-## Quick start
-
-1. Clone your repo and copy this folder in, or unzip and initialize a new repo.
-2. Replace `<YOUR_GITHUB_USER>` and `<YOUR_REPO_NAME>` in `docusaurus.config.js`.
-3. Install deps:
-   ```bash
-   npm install
-   ```
-4. Run locally:
-   ```bash
-   npm run start
-   ```
-5. Deploy to GitHub Pages:
-   - Ensure GitHub Pages is enabled from the `gh-pages` branch.
-   - Push to `main`, then run:
-     ```bash
-     GIT_USER=<YOUR_GITHUB_USER> npm run deploy
-     ```
-
 ## Content mapping
 
 - `docs/personas/landing.mdx` is the personas hub
