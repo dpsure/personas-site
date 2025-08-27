@@ -6,13 +6,13 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
 const config = {
   title: 'Personas Hub',
   tagline: 'How to build with AI on AWS',
-  url: 'https://<YOUR_GITHUB_USER>.github.io',
-  baseUrl: '/<YOUR_REPO_NAME>/',
+  url: 'https://dpsure.github.io',
+  baseUrl: '/personas-site/',
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
   favicon: 'img/favicon.ico',
-  organizationName: '<YOUR_GITHUB_USER>',
-  projectName: '<YOUR_REPO_NAME>',
+  organizationName: 'dpsure',
+  projectName: 'personas-site',
   trailingSlash: false,
   deploymentBranch: 'gh-pages',
   presets: [
@@ -22,7 +22,7 @@ const config = {
         docs: {
           sidebarPath: require.resolve('./sidebars.js'),
           routeBasePath: '/',
-          editUrl: 'https://github.com/<YOUR_GITHUB_USER>/<YOUR_REPO_NAME>/edit/main/',
+          editUrl: 'https://github.com/dpsure/personas-site/edit/main/',
         },
         blog: false,
         theme: {
@@ -40,7 +40,7 @@ const config = {
         { to: '/', label: 'Home', position: 'left' },
         { to: '/personas/landing', label: 'Personas', position: 'left' },
         { to: '/jobs/developer-agents', label: 'Build with AI Agents', position: 'left' },
-        { href: 'https://github.com/<YOUR_GITHUB_USER>/<YOUR_REPO_NAME>', label: 'GitHub', position: 'right' },
+        { href: 'https://github.com/dpsure/personas-site', label: 'GitHub', position: 'right' },
       ],
     },
     footer: {
