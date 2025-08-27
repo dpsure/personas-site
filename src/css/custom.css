@@ -1,0 +1,16 @@
+:root {
+  --ifm-color-primary: #0078d4;
+  --ifm-hero-background-color: #0b1f33;
+  --ifm-hero-text-color: #ffffff;
+}
+.heroBanner {
+  background: var(--ifm-hero-background-color);
+  color: var(--ifm-hero-text-color);
+  padding: 3rem 0;
+  text-align: left;
+}
+.heroEyebrow { text-transform: uppercase; letter-spacing: .08em; font-size: .9rem; opacity: .8; }
+.cardGrid { display: grid; grid-template-columns: repeat(auto-fit,minmax(260px,1fr)); gap: 1rem; }
+.cardGrid .card { border: 1px solid #e5e7eb; border-radius: 12px; padding: 1rem; background: #fff; }
+.pill { display:inline-block; padding:.25rem .6rem; border-radius:999px; background:#eef6ff; font-size:.75rem; }
+.muted { color:#677388; }
