@@ -1,0 +1,34 @@
+---
+id: personas-home
+title: Personas Hub
+sidebar_label: Personas Hub
+slug: /
+---
+
+import Hero from '@site/src/components/Hero';
+import CardGrid from '@site/src/components/CardGrid';
+
+<Hero
+  eyebrow="How to"
+  title="Build with AI on AWS"
+  subtitle="Pick your persona or jump straight into the job. Learn the concepts, then deploy a solution."
+  ctaLabel="Browse personas"
+  ctaHref="/personas/landing"
+/>
+
+## Start with a job
+
+<CardGrid items={[
+  { title: 'Build with AI Agents', href: '/jobs/developer-agents', desc: 'Understand agent patterns and deploy solutions on AWS.' },
+  { title: 'Migration TCO for Cloud Architects', href: '/jobs/cloud-architect-migration-tco', desc: 'Build a data-driven migration business case.' }
+]}/>
+
+## Or browse personas
+
+<CardGrid items={[
+  { title: 'Developer', href: '/personas/landing#developer', desc: 'Developer-flavored entry points to jobs.' },
+  { title: 'Cloud Architect', href: '/personas/landing#cloud-architect', desc: 'Plan and guide large-scale cloud migrations.' },
+  { title: 'Platform Engineer', href: '/personas/landing#platform-engineer', desc: 'Build internal platforms and DX.' },
+  { title: 'AI Engineer', href: '/personas/landing#ai-engineer', desc: 'Apply AI in apps and operations.' },
+  { title: 'IT Decision Maker', href: '/personas/landing#itdm', desc: 'Strategy and portfolio decisions.' }
+]}/>
