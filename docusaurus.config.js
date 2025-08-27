@@ -7,7 +7,7 @@ const config = {
   baseUrl: '/personas-site/',
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
-  favicon: 'img/favicon.ico',
+  favicon: 'img/logo.svg',
   organizationName: 'dpsure',
   projectName: 'personas-site',
   trailingSlash: false,
