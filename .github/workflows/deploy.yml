@@ -23,6 +23,8 @@ jobs:
         with:
           node-version: '20'
       - run: npm install
+      - run: npm install prism-react-renderer@^2.4.0   # <- add this
+      - run: npm ls prism-react-renderer                # sanity check
       - run: npm run build
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
