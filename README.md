@@ -1,4 +1,4 @@
-# Personas Hub on Docusaurus
+# Personas Hub
 
 A starter that gives you:
 - Persona landing page
