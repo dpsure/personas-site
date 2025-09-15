@@ -1,0 +1,27 @@
+{
+  "id": "personas/ai-engineer",
+  "title": "AI Engineer",
+  "description": "Jobs include agent frameworks, RAG, and evaluation.",
+  "source": "@site/docs/personas/ai-engineer.mdx",
+  "sourceDirName": "personas",
+  "slug": "/personas/ai-engineer",
+  "permalink": "/personas-site/personas/ai-engineer",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/dpsure/personas-site/edit/main/docs/personas/ai-engineer.mdx",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {
+    "id": "ai-engineer",
+    "title": "AI Engineer"
+  },
+  "sidebar": "personas",
+  "previous": {
+    "title": "Platform Engineer",
+    "permalink": "/personas-site/personas/platform-engineer"
+  },
+  "next": {
+    "title": "IT Decision Maker",
+    "permalink": "/personas-site/personas/it-decision-maker"
+  }
+}
