@@ -1,0 +1,29 @@
+{
+  "id": "jobs/developer-agents",
+  "title": "Build with AI Agents",
+  "description": "Learn how to design, evaluate, and deploy AI agents on AWS, then pick a solution to launch.",
+  "source": "@site/docs/jobs/developer-agents.mdx",
+  "sourceDirName": "jobs",
+  "slug": "/jobs/developer-agents",
+  "permalink": "/personas-site/jobs/developer-agents",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/dpsure/personas-site/edit/main/docs/jobs/developer-agents.mdx",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {
+    "id": "developer-agents",
+    "title": "Build with AI Agents",
+    "description": "Learn how to design, evaluate, and deploy AI agents on AWS, then pick a solution to launch.",
+    "hide_title": true
+  },
+  "sidebar": "personas",
+  "previous": {
+    "title": "IT Decision Maker",
+    "permalink": "/personas-site/personas/it-decision-maker"
+  },
+  "next": {
+    "title": "Migration TCO for Cloud Architects",
+    "permalink": "/personas-site/jobs/cloud-architect-migration-tco"
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "id": "jobs/cloud-architect-migration-tco",
+  "title": "Migration TCO for Cloud Architects",
+  "description": "Build a data-driven migration business case on AWS with TCO, ROI, and modernization options.",
+  "source": "@site/docs/jobs/cloud-architect-migration-tco.mdx",
+  "sourceDirName": "jobs",
+  "slug": "/jobs/cloud-architect-migration-tco",
+  "permalink": "/personas-site/jobs/cloud-architect-migration-tco",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/dpsure/personas-site/edit/main/docs/jobs/cloud-architect-migration-tco.mdx",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {
+    "id": "cloud-architect-migration-tco",
+    "title": "Migration TCO for Cloud Architects",
+    "description": "Build a data-driven migration business case on AWS with TCO, ROI, and modernization options."
+  },
+  "sidebar": "personas",
+  "previous": {
+    "title": "Build with AI Agents",
+    "permalink": "/personas-site/jobs/developer-agents"
+  }
+}
