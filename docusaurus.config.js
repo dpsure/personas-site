@@ -36,7 +36,7 @@ const config = {
       items: [
         { to: '/', label: 'Home', position: 'left' },
         { to: '/personas/landing', label: 'Personas', position: 'left' },
-        { to: '/jobs/developer-agents', label: 'Build with AI Agents', position: 'left' },
+        { to: '/jobs/developer-agents', label: 'Jobs to be Done', position: 'left' },
         { href: 'https://github.com/dpsure/personas-site', label: 'GitHub', position: 'right' },
       ],
     },
