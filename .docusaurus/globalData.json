@@ -1,0 +1,67 @@
+{
+  "docusaurus-plugin-content-docs": {
+    "default": {
+      "path": "/personas-site/",
+      "versions": [
+        {
+          "name": "current",
+          "label": "Next",
+          "isLast": true,
+          "path": "/personas-site/",
+          "mainDocId": "personas-home",
+          "docs": [
+            {
+              "id": "jobs/cloud-architect-migration-tco",
+              "path": "/personas-site/jobs/cloud-architect-migration-tco",
+              "sidebar": "personas"
+            },
+            {
+              "id": "jobs/developer-agents",
+              "path": "/personas-site/jobs/developer-agents",
+              "sidebar": "personas"
+            },
+            {
+              "id": "personas-home",
+              "path": "/personas-site/"
+            },
+            {
+              "id": "personas/ai-engineer",
+              "path": "/personas-site/personas/ai-engineer",
+              "sidebar": "personas"
+            },
+            {
+              "id": "personas/cloud-architect",
+              "path": "/personas-site/personas/cloud-architect",
+              "sidebar": "personas"
+            },
+            {
+              "id": "personas/it-decision-maker",
+              "path": "/personas-site/personas/it-decision-maker",
+              "sidebar": "personas"
+            },
+            {
+              "id": "personas/landing",
+              "path": "/personas-site/personas/landing",
+              "sidebar": "personas"
+            },
+            {
+              "id": "personas/platform-engineer",
+              "path": "/personas-site/personas/platform-engineer",
+              "sidebar": "personas"
+            }
+          ],
+          "draftIds": [],
+          "sidebars": {
+            "personas": {
+              "link": {
+                "path": "/personas-site/personas/landing",
+                "label": "Personas"
+              }
+            }
+          }
+        }
+      ],
+      "breadcrumbs": true
+    }
+  }
+}
