@@ -11,12 +11,19 @@ export default function CardGrid({ items = [] }) {
             <h3 style={{ marginTop: '.5rem' }}>{it.title}</h3>
           </Link>
           {it.desc && <p className="muted">{it.desc}</p>}
-          {it.jtbd_link && <a href={it.jtbd_link}>{it.jtbd_title}</a>}
+          {it.jtbd_href && it.jtbd_href.map((link, index) => (
+            <a key={index} href={link.url} target="_blank" rel="noopener noreferrer"> {link.label || "Click here to view more"} </a>
+          ))}
           {it.deploy_href && it.deploy_href.map((link, index) => (
             <a key={index} href={link.url} className="button button--primary button--me" target="_blank" rel="noopener noreferrer">
               {link.label ? `Click to Deploy: ${link.label}` : "Click to Deploy"}
             </a>
           ))}
+          {it.related_video && (
+            <a href={it.related_video} className='button button--secondary video-button' target='_blank' rel='noopener noreferrer'>
+                <span className='play-icon'>▶</span> Play Video
+            </a>
+          )}
         </div>
       ))}
     </div>

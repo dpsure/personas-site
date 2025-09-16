@@ -11,8 +11,7 @@
 }
 .heroEyebrow { text-transform: uppercase; letter-spacing: .08em; font-size: .9rem; opacity: .8; }
 .cardGrid { display: grid; grid-template-columns: repeat(auto-fit,minmax(260px,1fr)); gap: 1rem; }
-.cardGrid .card { border: 1px solid #e5e7eb; border-radius: 12px; padding: 1rem; background: #fff; display: flex; 
- }
+.cardGrid .card { border: 1px solid #e5e7eb; border-radius: 12px; padding: 1rem; background: #fff; display: flex; }
 .cardGrid .card .button {
   margin-top: 0.5rem;
   margin-right: 0.5rem;
@@ -28,3 +27,15 @@
 
 .pill { display:inline-block; padding:.25rem .6rem; border-radius:999px; background:#eef6ff; font-size:.75rem; }
 .muted { color:#677388; }
+
+.video-button {
+  display: flex;
+  align-items: center;
+  gap: 0.25rem;
+}
+
+.play-icon {
+  font-size: 0.9em;
+}
+
+
