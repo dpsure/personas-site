@@ -32,10 +32,10 @@ Using managed services like Amazon Bedrock Agents and Infrastructure as Code (Ia
 ## Jobs to be Done... {#jtbd}
 <CardGrid 
   items={[
-    { title: 'Accelerate development and deployment', desc: 'The AWS Solutions Library offers pre-built, production-ready frameworks for generative AI. These solutions help you bypass complex infrastructure setup, enabling faster prototyping and quicker paths to production.', jtbd_link: 'https://aws.amazon.com/solutions/ai/?nc=sn&%3Bloc=3&%3Bdn=ai&ams%23interactive-card-vertical%23pattern-data--345147811.filter=%257B%2522filters%2522%253A%255B%257B%2522id%2522%253A%2522GLOBAL%2523local-tags-solutions-use-case.and%2522%252C%2522value%2522%253A%255B%2522uc-mla-000-00001%2522%255D%257D%255D%257D', jtbd_title: 'Explore AI for Dev and DevOps solutions' },
-    { title: 'Choose a framework', href: '#frameworks', desc: 'When to use Amazon Bedrock Agents vs. custom frameworks.' },
-    { title: 'Evaluate and test', href: '#evaluation', desc: 'Design test harnesses and guardrails.' },
-    { title: 'Operationalize', href: '#operations', desc: 'Observability, cost, reliability, and rollout.' }
+    { title: 'Accelerate development and deployment', desc: 'The AWS Solutions Library offers pre-built, production-ready frameworks for generative AI. These solutions help you bypass complex infrastructure setup, enabling faster prototyping and quicker paths to production.', jtbd_href:[{url: 'https://aws.amazon.com/solutions/ai/?nc=sn&%3Bloc=3&%3Bdn=ai&ams%23interactive-card-vertical%23pattern-data--345147811.filter=%257B%2522filters%2522%253A%255B%257B%2522id%2522%253A%2522GLOBAL%2523local-tags-solutions-use-case.and%2522%252C%2522value%2522%253A%255B%2522uc-mla-000-00001%2522%255D%257D%255D%257D', label: 'Explore AI for Dev and DevOps solutions'}] },
+    { title: 'Build agents that can execute code', desc: 'Amazon Bedrock AgentCore\'s Code Interpreter provides a controlled environment for your AI agents to run code. This capability enables data analysis, visualization, and file operations within a managed framework.', jtbd_href: [{ url: 'https://aws.amazon.com/blogs/machine-learning/introducing-the-amazon-bedrock-agentcore-code-interpreter/', label: 'Learn about the Amazon Bedrock AgentCore Code Interpreter' }]},
+    { title: 'Choose the right agent architecture', desc: 'AWS Samples provides hands-on examples of different agent frameworks, from fully managed to open-source options. These practical examples help you select the best approach for your specific use case and enterprise requirements.', jtbd_href: [{ url: 'https://github.com/aws-samples/sample-building-agentic-ai-applications-on-aws', label: 'Explore sample agent applications on GitHub'}] },
+    { title: 'Build production-ready agent applications', desc: 'Learn essential best practices for building robust agent applications, from foundational elements like observability, logging, and infrastructure as code (IaC) to advanced patterns like streaming responses and error handling.', jtbd_href: [{url: 'https://aws.amazon.com/blogs/machine-learning/best-practices-for-building-robust-generative-ai-applications-with-amazon-bedrock-agents-part-1/', label: 'Learn foundational best practices'}, {url: 'https://aws.amazon.com/blogs/machine-learning/best-practices-for-building-robust-generative-ai-applications-with-amazon-bedrock-agents-part-2/', label: 'Explore advanced patterns'}] }
   ]}
 />
 
@@ -55,4 +55,9 @@ Notes on telemetry, model choice changes, and CI/CD for prompts.
 - Placeholder: Add your AWS Solutions and Guidance links here once ready.
 
 ## Related content
+<CardGrid
+  items={[
+    {pill: 'Video', title: 'Solving with AWS Solutions: Generative AI Application Builder on AWS', href: 'https://www.youtube.com/watch?v=JfcNrAZPGX4', related_video: 'https://www.youtube.com/watch?v=JfcNrAZPGX4'}
+  ]}
+/>
 - Placeholder: Add deep dives, workshops, and blogs here.
