@@ -14,10 +14,8 @@
   "frontMatter": {
     "id": "developer-agents",
     "title": "Build with AI Agents",
-
     "description": "Learn how to design, evaluate, and deploy AI agents on AWS, then pick a solution to launch.",
     "hide_title": true
-
   },
   "sidebar": "personas",
   "previous": {

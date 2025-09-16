@@ -20,17 +20,13 @@ export default {
       "classic",
       {
         "docs": {
-
-          "sidebarPath": "/Users/soniyag/Documents/development/personas-site/sidebars.js",
-
+          "sidebarPath": "/Users/aditipn/Documents/Personas/personas-site/sidebars.js",
           "routeBasePath": "/",
           "editUrl": "https://github.com/dpsure/personas-site/edit/main/"
         },
         "blog": false,
         "theme": {
-
-          "customCss": "/Users/soniyag/Documents/development/personas-site/src/css/custom.css"
-
+          "customCss": "/Users/aditipn/Documents/Personas/personas-site/src/css/custom.css"
         }
       }
     ]
@@ -56,9 +52,7 @@ export default {
         },
         {
           "to": "/jobs/developer-agents",
-
           "label": "Jobs to be Done",
-
           "position": "left"
         },
         {
